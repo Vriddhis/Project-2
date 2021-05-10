@@ -1,0 +1,16 @@
+public static void main(string[] args) {
+	int choice;
+	system.out.println("Pick one: 1. Hi\t2. Hey\t3. hello\t");
+	scanner s = new scanner (system.in);
+	choice = s.nextInt ();
+	switch(choice)
+	{
+	case 1 :system.out.println("YOu said Hi");
+	        break;
+	case 2 :system.out.println("YOu said Hey");
+	        break;
+	case 3 :system.out.println("YOu said Hello");
+	        break;
+	default : system.out.println("Invalid choice.");
+	}
+}
